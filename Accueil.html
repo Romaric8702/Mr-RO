@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Future 2025</title>
+</head>
+
+<style>
+    body{
+        background-color: rgb(2, 131, 137);
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(46, 42, 42);  
+        border-radius: 20px;
+    }
+
+    header ul{
+        display: flex;
+    }
+
+    header li{
+        list-style: none;
+        margin: 10px;
+        padding: 10px 20px;
+        border-radius: 8px;
+        background-color: rgb(0, 255, 174);
+        box-shadow: 0px 1px 10px black;
+        overflow: hidden;
+       
+    }
+
+    header li:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+        text-decoration: underline;
+        box-shadow: 5px 5px 8px  rgb(3, 3, 104);   
+    }
+    header li a{
+        outline: none;
+        border: none;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    header h2{
+        color: white;
+        margin-left: 12px;
+        display: flex;
+        align-items: center;
+    }
+
+    header h2:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+        text-decoration: underline;
+        text-shadow: 0px 1px 10px black;
+    }
+
+    main img{
+        width: 40%;
+        height: 400px;
+        border-radius: 15px;
+        box-shadow: 0px 5px 30px black;
+    }
+
+    main img:hover{
+        cursor: move;
+        transform: scale(1.03);
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        align-items: center;
+        margin-bottom: 70px;
+    }
+
+    .sec1 p{
+        width: 35%;  
+        margin-top: 20px;
+    }
+
+    .sec1 p:hover{
+        cursor: pointer;
+        transform: scale(1.04);
+    }
+
+    .sec1{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    main button a{
+        color: rgb(239, 241, 244);
+        text-decoration: none;
+    }
+    main button:hover {
+        background-color: blue;
+    }
+
+    main button{
+        background-color:  rgb(12, 4, 68);
+        font-weight: 600;
+        border-style: none;
+        height: 30px;
+        width: 10%;
+        border-radius: 9px;
+    }
+
+    main button:hover{
+        cursor: pointer ;
+        transform: scale(1.05);
+    }
+
+    footer{
+        background-color: rgb(46, 42, 42);
+        border-radius: 20px;
+    }
+
+    footer .foodi p{
+        padding: 30px;
+        text-align: center;
+        color: white;
+    }
+
+    footer .foodi p a{
+        color: white;
+        text-decoration: none;
+    }
+</style>
+<body>
+    <header>
+        <h2>Tech Future 2025</h2>
+        <nav class="nav1">
+            <ul>
+                <li><a href="">Acceuil</a></li>
+                <li><a href="./programmes.html">Programme</a></li>
+                <li><a href="./inscription.html">Inscription</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="mainprincipale">
+        <section class="sec1">
+            <img src="./img/6.jpg" alt="photo de présentation">
+            <p>Bienvenue <b style="color: rgb(0, 153, 255);">Tech Future 2025</b>.<br> Tech Future 2025 est une grande conférence sur la technologie du futur qui se tiendra le <b style="color: rgb(0, 153, 255);">16-18 mai 2025</b> au <b style="color: rgb(0, 153, 255);">Centre des congrès, paris</b></p>
+        </section>
+
+        <button><a href="./inscription.html" target="_blank">Appuyer pour s'inscrire</a></button>
+    </main>
+
+    <footer>
+        <div class="foodi">
+            <p>&copy; Tech Future 2025  </p>
+        </div>
+    </footer>
+</body>
+</html>
